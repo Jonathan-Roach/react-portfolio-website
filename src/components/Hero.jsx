@@ -8,11 +8,11 @@ const Hero = () => {
     <div className="container mx-auto px-6 md:px-12">
         <div class="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 lg:w-2/3">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl 3xl:text-9xl text-white font-bold mb-6">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl 3xl:text-8xl text-white font-bold mb-6">
                     Hello I'm <br class="hidden md:block" />
                     <span className="text-yellow-500">Jonathan Roach</span>
                 </h1>
-                <p className="text-lg md:text-xl lg:text-2xl 3xl:text-4xl text-gray-400 mb-8">
+                <p className="text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-400 mb-8">
                     A 2B Honours Arts and Business student pursuing a Computing minor at the University of Waterloo
                 </p>
 
