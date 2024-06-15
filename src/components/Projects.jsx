@@ -2,7 +2,7 @@ import { projectsData } from "../../utilities/projects"
 
 const Projects = () => {
   return (
-    <section id="experience" className="bg-white pt-12 pb-24 border-t-2">
+    <section id="project" className="bg-white pt-12 pb-24 border-t-2">
       <div className="container mx-auto px-10">
         <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold mb-4">Projects</h1>
         
