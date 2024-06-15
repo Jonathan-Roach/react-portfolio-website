@@ -6,9 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      textColor: {
-        "varBlue": "#091acb"
-      }
+      
     },
   },
   plugins: [],

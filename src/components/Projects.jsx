@@ -2,9 +2,9 @@ import { projectsData } from "../../utilities/projects"
 
 const Projects = () => {
   return (
-    <section id="project" className="bg-white pt-12 pb-24 border-t-2">
+    <section id="project" className="pt-12 pb-24 border-t-2 border-solid border-yellow-500">
       <div className="container mx-auto px-10">
-        <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold mb-4">Projects</h1>
+        <h1 className="text-white text-center text-4xl md:text-5xl lg:text-6xl font-semibold mb-4">Projects</h1>
         
         <div className="flex justify-center pt-10 pb-5">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

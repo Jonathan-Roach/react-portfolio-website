@@ -2,9 +2,9 @@ import SkillCard from "./SkillCard";
 
 function Skills() {
   return (
-    <div id="skills" class="w-full bg-white pt-10 pb-24 border-t-2">
+    <div id="skills" class="w-full bg-black pt-10 pb-24 border-t-2 border-solid border-yellow-500">
         <div className="flex justify-center pt-10 pb-5">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6">Skills</h1>
+        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-semibold mb-6">Skills</h1>
         </div>
 
         <div className="flex justify-center pb-10">    
