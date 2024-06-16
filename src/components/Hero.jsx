@@ -1,6 +1,7 @@
 import { personalData } from '../../utilities/background';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
+import { LuPaperclip } from 'react-icons/lu';
 
 const Hero = () => {
   return (
@@ -18,14 +19,17 @@ const Hero = () => {
 
 {/* PLUGIN LOGOS*/}
                 <div className="my-12 flex items-center gap-5">
-            <a href={personalData.github} target='_blank' className="transition-all text-white hover:text-yellow-500 hover:scale-125 duration-300">
+            <a href={personalData.github} target='_blank' className="transition-all text-white hover:text-red-500 hover:scale-125 duration-300">
               <BsGithub size={30} />
             </a>
             <a href={personalData.linkedIn} target='_blank' className="transition-all text-white hover:text-blue-500 hover:scale-125 duration-300">
               <BsLinkedin size={30} />
             </a>
-            <a href={personalData.email} target='_blank' className="transition-all text-white hover:text-red-500 hover:scale-125 duration-300">
+            <a href={personalData.email} target='_blank' className="transition-all text-white hover:text-yellow-500 hover:scale-125 duration-300">
               <FaEnvelope size={30} />
+            </a>
+            <a href={personalData.resume} target='_blank' className="transition-all text-white hover:text-green-500 hover:scale-125 duration-300">
+              <LuPaperclip size={30} />
             </a>
           </div>
 

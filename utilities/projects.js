@@ -7,11 +7,11 @@ export const projectsData = [
         src: 'https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png',
     },
     {
-        name: 'Calculator',
+        name: 'Snake',
         description: "",
         tools: ['HTML, CSS, Javascript'],
         demo: 'Demo Unavailable',
-        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj59qBGogh49qPyfdNAMm0sx4tbhSjZ9UZAw&s',
+        src: 'https://www.coolmathgames.com/sites/default/files/styles/mobile_game_image/public/Snake_OG-logo.jpg?itok=iR44Vsed',
     },
     {
         name: 'ATM Simulator',
