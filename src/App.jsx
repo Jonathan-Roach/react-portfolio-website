@@ -11,13 +11,9 @@ const App = () => {
       <div className="bg-black mx-auto px-6 sm:px-12">
     <Navbar />
     <Hero />
-    </div>
-
     <Skills />
    <Experience />
     <Projects />
-    
-    <div className="bg-black mx-auto px-6 sm:px-12">
     <Footer />
     </div>
     </>
