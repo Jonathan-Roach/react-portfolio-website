@@ -2,7 +2,7 @@ export const projectsData = [
     {
         name: 'Weather App',
         description: "",
-        tools: ['HTML, CSS, Javascript, Tailwind'],
+        tools: ['HTML, Tailwind, Javascript, API'],
         demo: 'Demo Unavailable',
         src: 'https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png',
     },
