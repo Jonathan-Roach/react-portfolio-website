@@ -9,6 +9,8 @@ const Experience = () => {
         <div className="flex justify-center pt-10 pb-5">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {experiences.map((experience, index) => (
+
+            // BOX 
             <div key={index} className="bg-white hover:scale-105 shadow-xl border-2 p-6 rounded-xl">
               <div className="justify-center">
               <img src={experience.src} alt={`${experience.company} logo`} className="h-56 w-full mr-3 rounded"/>
@@ -20,6 +22,7 @@ const Experience = () => {
               </div>
               <p className="text-gray-600">{experience.description}</p>
             </div>
+            // BOX ^^^^
           ))}
         </div>
         </div>

@@ -14,7 +14,7 @@ const Hero = () => {
                     <span className="text-yellow-500">Jonathan Roach</span>
                 </h1>
                 <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 mb-8">
-                    A 2B Honours Arts and Business student pursuing a Computing minor at the University of Waterloo
+                    A 3A Honours Arts and Business student pursuing a Computing minor at the University of Waterloo
                 </p>
 
 {/* PLUGIN LOGOS*/}

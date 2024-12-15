@@ -1,5 +1,12 @@
 export const experiences = [
     {
+        position: "Filing Clerk",
+        company: "Volkswagen",
+        duration: "(Nov 2024 - Present)",
+        src: "https://upload.wikimedia.org/wikinews/en/d/d3/Volkswagen_logo.png",
+        description:""
+    },
+    {
         position: "Office & Project Coordinator",
         company: "Filion Wakely Thorup Angeletti LLP",
         duration: "(Jan 2024 - May 2024)",
