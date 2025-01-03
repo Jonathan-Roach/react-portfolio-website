@@ -8,10 +8,10 @@ import Projects from "./components/Projects"
 const App = () => {
   return (
     <>
-      <div className="bg-black mx-auto px-6 sm:px-12">
-    <Navbar />
+      <div className="bg-black">
+    <Navbar /> 
     <Hero />
-    <Skills />
+   <Skills />
    <Experience />
     <Projects />
     <Footer />

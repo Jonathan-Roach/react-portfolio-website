@@ -14,14 +14,7 @@ export const experiences = [
         description:""
     },
     {
-        position: "Convenor",
-        company: "Thornhill Soccer Club",
-        duration: "(Aug 2023)",
-        src: "https://pbs.twimg.com/profile_images/1762157694750715904/Beuor0x1_400x400.jpg",
-        description:""
-    },
-    {
-        position: "Soccer Coach",
+        position: "Soccer Coach & Convenor",
         company: "Thornhill Soccer Club",
         duration: "(Jun 2023 - Aug 2023)",
         src: "https://pbs.twimg.com/profile_images/1762157694750715904/Beuor0x1_400x400.jpg",

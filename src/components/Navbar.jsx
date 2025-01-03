@@ -22,11 +22,7 @@ const Navbar = () => {
             <div className="text-sm font-bold text-white transition-colors duration-300 hover:text-yellow-500">PROJECTS</div>
             </a>
           </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="Resume.pdf" target="_blank">
-            <div href="../assets/resume.pdf" className="text-sm font-bold text-white transition-colors duration-300 hover:text-yellow-500">RESUME</div>
-            </a>
-          </li>
+          
         </ul>
       </div>
     </nav>

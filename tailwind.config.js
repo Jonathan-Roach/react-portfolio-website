@@ -9,6 +9,7 @@ export default {
       screens: {
         '3xl': '1800px',
       },
+      
     },
   },
   plugins: [],

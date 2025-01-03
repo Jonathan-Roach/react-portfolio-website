@@ -28,9 +28,7 @@ const Hero = () => {
             <a href={personalData.email} target='_blank' className="transition-all text-white hover:text-yellow-500 hover:scale-125 duration-300">
               <FaEnvelope size={30} />
             </a>
-            <a href={personalData.resume} target='_blank' className="transition-all text-white hover:text-green-500 hover:scale-125 duration-300">
-              <LuPaperclip size={30} />
-            </a>
+          
           </div>
 
             </div>
