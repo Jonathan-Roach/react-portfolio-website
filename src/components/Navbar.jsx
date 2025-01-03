@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
 <nav className="bg-transparent border-b-2 border-solid border-yellow-500 ">
-      <div className="flex items-center justify-between py-5">
+      <div className="flex items-center justify-between py-5 px-5">
         <div className="flex flex-shrink-0 items-center">
           <h1 className="px-4 text-white text-lg font-bold hover:text-yellow-500">JONATHAN ROACH</h1>
         </div>
