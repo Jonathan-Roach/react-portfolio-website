@@ -10,9 +10,10 @@ const Hero = () => {
         <div class="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 lg:w-2/3">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white font-bold mb-6">
-                    Hello I'm <br class="hidden md:block" />
+                    Hello I'm <br class="block" />
                     <span className="text-yellow-500">Jonathan Roach</span>
                 </h1>
+                
                 <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 mb-8">
                     A 3A Honours Arts and Business student pursuing a Computing minor at the University of Waterloo
                 </p>
