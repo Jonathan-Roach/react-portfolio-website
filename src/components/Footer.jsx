@@ -16,9 +16,7 @@ const Footer = () => {
     <a href={personalData.email} target='_blank' className="transition-all text-gray-400 hover:text-yellow-500 hover:scale-125 duration-300">
               <FaEnvelope size={22} />
      </a>
-     <a href={personalData.resume} target='_blank' className="transition-all text-gray-400 hover:text-green-500 hover:scale-125 duration-300">
-              <LuPaperclip size={22} />
-            </a>
+     
     </div>
 
     <p className='text-gray-400 text-center'>&copy; {personalData.date} Jonathan Roach. All Rights Reserved.</p>
