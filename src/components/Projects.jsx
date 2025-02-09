@@ -16,7 +16,7 @@ const Projects = () => {
               <h2 className="md:text-xl text-lg font-semibold pt-1">{projectsData.name}</h2>
               <div className="flex flex-col">
               <p className="text-gray-700 md:text-sm text-xs font-light pb-4">{projectsData.description}</p>
-              <button href={projectsData.demoLink} className="bg-black rounded-lg mr-80 text-white md:text-sm text-xs">{projectsData.demo}</button>
+              <a href={projectsData.demoLink}><button className="bg-black rounded-xl p-1 px-4 font-semibold text-white md:text-sm text-xs">{projectsData.demo}</button></a>
               </div>
               <p className="text-gray-600"></p>
             </div>
