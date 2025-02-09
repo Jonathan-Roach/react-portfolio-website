@@ -4,7 +4,7 @@ export const projectsData = [
         description: "FlashNotes is a Python-based flashcard application that allows you to learn interactively by flipping and cycling through flashcards. It's designed to be lightweight, customizable, and easy to use.",
         demo: 'Visit',
         demoLink: 'https://github.com/Jonathan-Roach/flashnotes',
-        src: '../assets/flashnote.png',
+        src: 'https://esllibrary.s3.amazonaws.com/uploads/post/title_image/240/Shelly_Flashcard-Fun-Ideas-and-Resources-for-Using-Flashcards-in-the-Language-Classrooms_Banner.png',
     },
     {
         name: 'ATM Simulator',
