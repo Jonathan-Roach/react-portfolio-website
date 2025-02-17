@@ -11,12 +11,12 @@ const Projects = () => {
           {projectsData.map((projectsData, index) => (
             <div key={index} className="bg-white hover:scale-105 shadow-xl border-2 solid p-6 rounded-xl">
               <div className="justify-center">
-              <img src={projectsData.src} alt={`${projectsData.name} logo`} className="h-56 w-full mr-3 rounded mb-1"/>
+              <img src={projectsData.src} alt={`${projectsData.name} logo`} className="h-56 w-full mr-3 rounded-lg mb-1"/>
               </div>
-              <h2 className="md:text-xl text-lg font-semibold">{projectsData.name}</h2>
+              <h2 className="md:text-xl text-lg font-semibold pt-1">{projectsData.name}</h2>
               <div className="flex flex-col">
-              <p className="text-gray-700 md:text-sm text-xs">{projectsData.tools}</p>
-              <p className="text-gray-400 mb-4 md:text-sm text-xs">{projectsData.demo}</p>
+              <p className="text-gray-700 md:text-sm text-xs font-light pb-4">{projectsData.description}</p>
+              <a href={projectsData.demoLink}><button className="bg-black rounded-xl p-1 px-4 font-semibold text-white md:text-sm text-xs">{projectsData.demo}</button></a>
               </div>
               <p className="text-gray-600"></p>
             </div>
